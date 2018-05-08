@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'brankic';
-	src:url("#{sfontsPath}/brankic.eot");
-	src:url("#{$fontsPath}/brankic.eot?#iefix") format("embedded-opentype"),
-		url("#{$fontsPath}/brankic.ttf") format("truetype"),
-		url("#{$fontsPath}/brankic.woff") format("woff"),
-		url("#{$fontsPath}/brankic.svg#brankic") format("svg");
+	src:font-url("react30_theme/brankic.eot");
+	src:font-url("react30_theme/brankic.eot?#iefix") format("embedded-opentype"),
+		font-url("react30_theme/brankic.ttf") format("truetype"),
+		font-url("react30_theme/brankic.woff") format("woff"),
+		font-url("react30_theme/brankic.svg#brankic") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
