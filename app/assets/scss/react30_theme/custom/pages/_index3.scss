@@ -207,7 +207,7 @@
     width: 100%;
     background-position: center center;
     background-size: cover;
-    background-image: url("../images/index-hero.jpg");
+    background-image: image-url("react30_theme/index-hero.jpg");
 
     @include animationDelay(0.15s);
 

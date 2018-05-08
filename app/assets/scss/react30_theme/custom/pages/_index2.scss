@@ -47,7 +47,7 @@
         margin: auto 0;
         width: 19px;
         height: 58px;
-        background: url("../images/slide-arrow.png") no-repeat;
+        background: image-url("react30_theme/slide-arrow.png") no-repeat;
         left: 30px;
 
         @include transform(rotate(180deg));
@@ -66,7 +66,7 @@
         margin: auto 0;
         width: 19px;
         height: 58px;
-        background: url("../images/slide-arrow.png") no-repeat;
+        background: image-url("react30_theme/slide-arrow.png") no-repeat;
         right: 30px;
       }
     }
@@ -180,7 +180,7 @@
         }
 
         .bg {
-          background-image: url("../images/index-hero.jpg");
+          background-image: image-url("react30_theme/index-hero.jpg");
 
           &:after {
             background: rgba(41, 69, 125, 0.35);
@@ -255,7 +255,7 @@
         }
 
         .bg {
-          background-image: url("../images/bgs/photo-1472132858735-6313c7962473.jpeg");
+          background-image: image-url("react30_theme/bgs/photo-1472132858735-6313c7962473.jpeg");
           background-position: center 18%;
 
           &:after {
@@ -354,7 +354,7 @@
         }
 
         .bg {
-          background-image: url('../images/bgs/photo-1467659226669-a1360d97be2d.jpeg');
+          background-image: image-url('react30_theme/bgs/photo-1467659226669-a1360d97be2d.jpeg');
           background-position: center 15%;
 
           &:after {

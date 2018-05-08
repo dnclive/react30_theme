@@ -67,7 +67,7 @@
         }
 
         &.prev {
-          background: url("../images/slider/slide-left.png")  0 0 no-repeat;
+          background: image-url("react30_theme/slider/slide-left.png")  0 0 no-repeat;
           left: 91px;
 
           @include transform(translateX(-48px));
@@ -78,7 +78,7 @@
         }
         
         &.next {
-          background: url("../images/slider/slide-right.png")  0 0 no-repeat;
+          background: image-url("react30_theme/slider/slide-right.png")  0 0 no-repeat;
           right: 91px;
 
           @include transform(translateX(48px));
